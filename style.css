@@ -60,22 +60,24 @@ button a{
 .but1 button {
     background-color: hsl(171, 66%, 44%);
     border:hsl(171, 66%, 44%) ;
+    /* box-shadow: 2px 2px 0px 1px hsl(171, 66%, 44%); */
+   
    
 }
 .but2 button{
     background-color: hsl(228, 45%, 44%);
     border:hsl(171, 66%, 44%) ;
-
+    /* box-shadow: 2px 2px 0px 1px hsl(228, 45%, 44%);  */
 }
 .but1 :hover{
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 2px 2px 7px 1px hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 0px 1px hsl(171, 66%, 44%);
    
    
 }
 .but2 :hover{
     background-color: hsl(228, 45%, 44%);
-    box-shadow: 2px 2px 7px 1px hsl(228, 45%, 44%); 
+    box-shadow: 2px 2px 0px 1px hsl(228, 45%, 44%); 
      
 }
 
