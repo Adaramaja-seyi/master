@@ -39,10 +39,12 @@ p{
 button{
     padding: 7px 25px;
     border-radius: 20px;
-    background-color: rgb(177, 179, 214);
-    border: none;
+    /* background-color: hsl(228, 45%, 44%); */
+    /* border: 1px solid; */
     cursor: pointer;
     width: 100%;
+    /* box-shadow: 2px 2px 70px 1px hsl(171, 66%, 44%); */
+
 }
 .but1{
     margin-left: -9%;
@@ -54,6 +56,16 @@ button{
 button a{
     text-decoration: none;
     color: antiquewhite;
+}
+.but1 button {
+    background-color: hsl(171, 66%, 44%);
+    border:hsl(171, 66%, 44%) ;
+   
+}
+.but2 button{
+    background-color: hsl(228, 45%, 44%);
+    border:hsl(171, 66%, 44%) ;
+
 }
 .but1 :hover{
     background-color: hsl(171, 66%, 44%);
@@ -123,7 +135,7 @@ h5{
 }
 .flex3{
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top:20px ;
     text-align: center;
     /* border: 1px solid red; */
@@ -144,7 +156,7 @@ h5{
 }
 .flex4{
     display: flex;
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top:70px ;
     margin-bottom: 50px;
     text-align: center;
@@ -168,7 +180,15 @@ h5{
 .flex5 .icon p{
     margin-top: 12px;
     margin-left: 20px;
+    font-size: 15px;
 }
+.flex5 .icon p  a{
+text-decoration: none;
+}
+.flex5 a:hover{
+color: hsl(171, 66%, 44%);
+}
+
 .face{
     display: flex;
     margin-left: 10%;
@@ -177,6 +197,12 @@ h5{
 .face .icon img{
     margin-top: 12px;
     width: 80%;
+}
+.face a:hover{
+    color: hsl(171, 66%, 44%);
+}
+footer{
+    background-color: hsl(202, 100%, 96%);
 }
 
 /* media quary */
